@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Embedding Images and Creating Links in HTML</title>
+    <link rel="stylesheet" href="info.css">
+    <script src="info.js"></script>
+</head>
+<body>
+    <div id="info"></div>
+    <h2>Working with Images and Links in HTML</h2>
+    <img src="image.png" alt="Image" width="150" height="150"><br>
+
+    <h3>External Links</h3>
+    <a href="https://www.google.com" target="_self" title="Opens in same tab">Google (self)</a><br>
+    <a href="https://www.wikipedia.org/" target="_blank" title="Opens in new tab">Wikipedia (blank)</a><br>
+    <a href="https://iost.tu.edu.np/" target="_parent" title="Opens in parent frame">TU IOST (parent)</a><br>
+    <a href="https://www.youtube.com" target="_top" title="Opens in full window">Youtube(top)</a><br><br>
+
+    <h3>Internal Links</h3>
+    <a href="#section1">Go to Section 1</a><br>
+    <a href="#section2">Go to Section 2</a><br><br>
+
+
+    <h3>Image as a Link</h3>
+    <a href="https://www.wikipedia.org/" target="_blank">
+        <img src="image.png" alt="wikipedia" width="100" height="100">
+    </a><br><br>
+
+    <h3 id="section1">Section 1</h3>
+    <p>This is Section 1 of the page. <a href="#top">Back to top</a></p>
+
+    <h3 id="section2">Section 2</h3>
+    <p>This is Section 2 of the page. <a href="#top">Back to top</a></p>
+</body>
+</html>

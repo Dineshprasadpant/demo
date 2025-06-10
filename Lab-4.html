@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table</title>
+    <link rel="stylesheet" href="info.css">
+    <script src="info.js"></script>
+    </head>
+<style>
+    table {
+        width: 60%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    caption {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+</style>
+</style>
+<body>
+    <div id="info"></div>
+    <h2>Student Grade Report</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sandeep</td>
+                <td>Math</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Shyam</td>
+                <td>English</td>
+                <td>92</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>Science</td>
+                <td>78</td>
+                <td>B</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table>
+        <caption>Employee Department Information</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Position</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sita</td>
+                <td>Sales</td>
+                <td>Manager</td>
+                <td rowspan="2">New Baneshwor</td>
+            </tr>
+            <tr>
+                <td>Hari</td>
+                <td>CSSD</td>
+                <td>Associate</td>
+            </tr>
+            <tr>
+                <td>Ujjawal</td>
+                <td>IT</td>
+                <td colspan="2">Lead Developer</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employees: 4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
