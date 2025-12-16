@@ -23,7 +23,7 @@ vector<string> getsuffix(string s) {
     ans.push_back("\u03B5"); // empty string
     return ans;
 }
-string substring(string& s, int start, int end)
+/*string substring(string& s, int start, int end)
 {
     int n=s.length();
     if(start<0 ||end>n || end<start)
@@ -32,7 +32,7 @@ string substring(string& s, int start, int end)
     for(int i=start;i<end;i++)
         ans+=s[i];  
     return ans;
-}
+}*/
 vector<string> substrings(string s)
 {
     int n=s.length();
@@ -65,4 +65,5 @@ int main() {
     cout<<endl<<endl<<"Lab No.: 2 / Name: Dinesh Prasad Panta / Roll No. 03 / Section:A ";
     return 0;
 }
+
 
